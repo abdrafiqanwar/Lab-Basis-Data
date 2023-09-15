@@ -1,0 +1,7 @@
+ALTER TABLE books
+MODIFY isbn CHAR(13);
+
+ALTER TABLE books
+DROP COLUMN summary;
+
+DESCRIBE books;
